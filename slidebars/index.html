@@ -6,29 +6,23 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    
 </head>
 <body>
-        <div class="sb-site-container">
-                <h1><a target="_blank" href="http://plugins.adchsm.me/slidebars/usage.php#slidebars">slidebars js</a></h1>
-                <div class="buttons">
-                  <button class="sb-open-left">left</button>
-                  <button class="sb-open-right">right</button>
-                </div>
-              </div>
-              
-              <div class="sb-slidebar sb-left sb-width-wide sb-style-push">
-                
-                <p>sidebar one Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut quae fuga cum, iusto corrupti ea, inventore aliquam nostrum vitae consectetur quidem non odio! Rerum voluptas, officia eveniet tempore nisi.</p>
-                
-                <p>sidebar one Lorem ipsum dolor sit amet, consectet, iusto corrupti ea, inventore aliquam nostrum vitae consectetur quidem non odio! Rerum voluptas, officia eveniet tempore nisi.</p>
-                
-              </div>
-              
-              <div class="sb-slidebar sb-right .sb-style-overlay">
-                sidebar two Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aut quae fuga cum, iusto corrupti ea, inventore aliquam nostrum vitae consectetur quidem non odio! Rerum voluptas, officia eveniet tempore nisi.
-              </div>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      <div id="main">
+        <h2>SLidebars</h2>
+        <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      </div>
 
-              <script src="index.js"></script>
+    <script src="index.js"></script>
+
 </body>
 </html>
