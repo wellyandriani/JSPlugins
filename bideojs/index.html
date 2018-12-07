@@ -1,18 +1,32 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
-    <script src="index.js"></script>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Easy Fullscreen HTML5 Background Video</title>
+  <meta name="keywords" content="css3, html5, js, background video, fullscreen video">
+  <meta name="description" content="Super easy to implement HTML5 fullscreen background video library in JavaScript.">
+  <link rel="stylesheet" type="text/css" media="screen" href="index.css" />
+  
 </head>
 <body>
-        <video autoplay muted loo >
-          <source src="https://storage.googleapis.com/coverr-main/mp4/Two-Swimmers.mp4" type="video/mp4">
-        </video>
-      
+  <div id="container">
+    <video id="background_video" loop muted></video>
+    <div id="video_cover"></div>
+    <div id="overlay"></div>
+
+    <section id="main_content">
+      <div id="head">
+        <h1>Bideo.js</h1>
+        <p class="sub_head">A JS library that makes it super easy to add fullscreen background videos.</p>
+        <p class="info">(Hold on! The video might take a while to load.)</p>
+      </div>
+    </section>
+  </div>
+
+
+  <script src="bideo.js"></script>
+  <script src="index.js"></script>
+
+
 </body>
 </html>
-
